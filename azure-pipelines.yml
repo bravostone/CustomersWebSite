@@ -63,7 +63,7 @@ stages:
             displayName: 'Deploy to Elastic Beanstalk'
             inputs:
               awsCredentials: 'aws-connection'
-              regionName: 'us-east-1'
+              regionName: 'us-east-2'
               applicationName: 'customer-web-site'
               environmentName: 'Customerwebsite-env'
               applicationType: 'aspnetCoreWindows'
